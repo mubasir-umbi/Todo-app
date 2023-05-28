@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 38%;
+    margin-top: 50px;
+    background-color: #012727d7;
+    border: none;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.header{
+    text-align: center;
+    color: #cfd7d8;
+    font-weight: 500;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px 0 20px ;
+    width: auto;
+}
+
+.add-btn{
+    margin-left: 10px;
+    background-color: transparent;
+    color: #cfd7d8;
+    border-radius: 5px;
+    width: 20%;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 1px 6px 10px #283538;
+    border: 1px solid #21616fb6;
+
+}
+
+#inpt-fieled{
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 6px 10px #283538;
+    outline: none;
+    background-color: #cdcbcb;
+}
+
+
+ul{
+    padding: 0;
+}
+
+.list{
+    margin-bottom: 30px !important;
+}
+
+li{
+    margin-bottom: 10px;
+    background-color: #000 !important;
+    color: #cfd7d8 !important;
+    border: none !important;
+    list-style-type: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px 20px 15px 20px;
+    box-shadow: 1px 6px 10px #283538;
+    box-sizing: border-box;
+
+}
+
+.todo-list{
+    text-align: left;
+    display: flex;
+}
+
+.todo-list .list-items{
+    flex: 1;
+}
+
+.list-items{
+    box-sizing: border-box;
+}
+
+.todo-list .icon{
+    padding-left: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    color: aliceblue;
+}
+.icon{
+    border: 1.5px solid #cdcbcb;
+    border-radius: 50%;
+    margin-left: 6px;
+    padding: 3px !important;
+}
+
+#done{
+    color: #cdcbcb;
+    /* color: rgb(4, 219, 4);
+    border: 1.5px solid  rgb(4, 219, 4); */
+}
+
+#delete{
+    color:  #cdcbcb;
+}
+
+#edit{
+    color: #cdcbcb;
+}
+
+#doneId{
+    text-decoration: line-through;
+    opacity: 0.3;
+}
+
+.error{
+    color: rgb(247, 5, 5);
+    text-align: left;
+    margin: 0 0 20px 20px;
+}
+
+.disable {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+
